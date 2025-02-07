@@ -1,4 +1,4 @@
-package com.horadrim.eye;
+package com.horadrim.khalims.eye;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
