@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: khalims-eye
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: khalims-eye
+  template:
+    metadata:
+      labels:
+        app: khalims-eye
+    spec:
+      containers:
+      - name: khalims-eye
+        image: khalims-eye:1.0.0
+        imagePullPolicy: Never
